@@ -4,39 +4,29 @@ import Utilities.MojangAPI as MojangAPI
 from dotenv import load_dotenv, dotenv_values
 load_dotenv()
 API_KEY = dotenv_values('.env')["API_KEY"]
+HYPIXEL_API = "https://api.hypixel.net"
 
 async def getStrandedData(uuid):
-    try:
-        res = requests.get('https://api.hypixel.net/skyblock/profiles', params={"key": API_KEY, "uuid": uuid})
-        if res.status_code != 200: 
-            return []
-        res = res.json()
-    except Exception as e:
-        print("Something went wrong in the hypixel API!", uuid)
-        return []
-    try:
-        res = res['profiles']
-        return [profile for profile in res if 'game_mode' in profile and profile['game_mode'] == 'island']
-    except:
-        return []
+    try: res = getHypixelData("skyblock/profiles", {"uuid": uuid})
+    except: return []
+    try: return [profile for profile in res['profiles'] if 'game_mode' in profile and profile['game_mode'] == 'island']
+    except: return []
 
 
 async def getStrandedProfileIDsForPlayer(uuid):
-    res = requests.get('https://api.hypixel.net/skyblock/profiles', params={"key": API_KEY, "uuid": uuid}).json()
-    try:
-        res = res['profiles']
-        return [profile['profile_id'] for profile in res if 'game_mode' in profile and profile['game_mode'] == 'island']
-    except:
-        return []
+    res = getHypixelData("skyblock/profiles", {"uuid": uuid})
+    try: return [profile['profile_id'] for profile in res['profiles'] if 'game_mode' in profile and profile['game_mode'] == 'island']
+    except: return []
 
-async def getGuildData(guild_id):
-    res = requests.get('https://api.hypixel.net/guild', params={"key": API_KEY, "id": guild_id}).json()
-    return res
+async def getGuildData(guild_id): return getHypixelData("guild", {"id": guild_id})
 
 async def getAllPlayersInGuild(guild_id):
-    data = await getGuildData(guild_id)
-    return [member['uuid'] for member in data['guild']['members']]
+    return [member['uuid'] for member in (await getGuildData(guild_id))['guild']['members']]
 
 async def getAllPlayerNamesInGuild(guild_id):
     uuids = await getAllPlayersInGuild(guild_id)
     return [await MojangAPI.getUsernameFromUUID(uuid) for uuid in uuids]
+
+async def getHypixelData(endpoint, params):
+    params["key"] = API_KEY
+    return requests.get(f'{HYPIXEL_API}/{endpoint}', params=params)
