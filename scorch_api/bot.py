@@ -4,7 +4,6 @@ import os
 
 API_BASE = 'http://192.168.1.100:8880/api'
 SWEATS_BRIDGE_CHANNEL = 932028296097583134
-MESSAGE_JSON = BASE_PATH + "/messages.json"
 
 
 bot = commands.Bot(command_prefix='s+')
