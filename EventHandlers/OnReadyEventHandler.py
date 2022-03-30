@@ -10,9 +10,9 @@ from scorch_api.Applications import *
 async def on_ready():
 	print(f'{bot.user} has connected to Discord!')
 	if DEBUG_MODE: await runTests()
-		# await sendMessageAsTelofik(f'In-Game Commands have been (Re-)Enabled!')
-		# await startApplicationMessage()
-		# await sendApplicationList()
+	await sendMessageAsTelofik(f'In-Game Commands have been (Re-)Enabled!')
+	await startApplicationMessage()
+	await sendApplicationList()
 
 	
 async def runTests():

@@ -24,14 +24,12 @@ async def startApplicationMessage():
 	await message.add_reaction(CROSS_EMOJI)
 
 async def sendApplicationList():
-	channel = bot.get_channel(APPLICATION_CHANNEL)
-	message = await channel.send(embed=await generateQueueList())
+	await bot.get_channel(APPLICATION_CHANNEL).send(embed=await generateQueueList())
 
 async def deleteOldApplicationMessages():
 	channel = bot.get_channel(APPLICATION_CHANNEL)
 	async for message in channel.history(limit=2):
-		if message.author == bot.user:
-			await message.delete()
+		if message.author == bot.user: await message.delete()
 
 async def updateChannelForApplications():
 	channel = bot.get_channel(APPLICATION_CHANNEL)
