@@ -10,40 +10,40 @@
 <br />
 <p align="center">
   <a href="https://github.com/ScorchChamp/Stranded_Bot">
-    <img src="readme_data/logo.png" alt="Logo" width="80" height="80">
+	<img src="readme_data/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Stranded Bot</h3>
 
   <p align="center">
-    Discord bot
-    <br />
-    <a href="https://github.com/ScorchChamp/Stranded_Bot/releases/">Releases »</a>
-    <br />
-    <br />
-    <!-- <a href="https://github.com/ScorchChamp/Stranded_Bot">View On Discord</a>
-    · -->
-    <a href="https://github.com/ScorchChamp/Stranded_Bot/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ScorchChamp/Stranded_Bot/issues">Request Feature</a>
+	Discord bot
+	<br />
+	<a href="https://github.com/ScorchChamp/Stranded_Bot/releases/">Releases »</a>
+	<br />
+	<br />
+	<!-- <a href="https://github.com/ScorchChamp/Stranded_Bot">View On Discord</a>
+	· -->
+	<a href="https://github.com/ScorchChamp/Stranded_Bot/issues">Report Bug</a>
+	·
+	<a href="https://github.com/ScorchChamp/Stranded_Bot/issues">Request Feature</a>
   </p>
 </p>
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#releases">Releases</a></li>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+	<li><a href="#about-the-project">About The Project</a></li>
+	<li><a href="#releases">Releases</a></li>
+	</li>
+	<li>
+	  <a href="#getting-started">Getting Started</a>
+	  <ul>
+		<li><a href="#installation">Installation</a></li>
+	  </ul>
+	</li>
+	<li><a href="#roadmap">Roadmap</a></li>
+	<li><a href="#contributing">Contributing</a></li>
+	<li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -65,7 +65,7 @@ Download the latest version of [Stranded_Bot](https://github.com/ScorchChamp/Str
 
 1. Clone the repo
    ```sh
-    git clone https://github.com/ScorchChamp/Stranded_Bot.git
+	git clone https://github.com/ScorchChamp/Stranded_Bot.git
    ```
 2. Run main.py within the environment
 

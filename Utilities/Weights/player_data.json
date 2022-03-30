@@ -1,18 +1,36 @@
 {
     "lascivi": {
-        "score": 35991.0,
+        "score": 41138.0,
         "breakdown": {
-            "farming": 11773,
-            "mining": 2385,
-            "combat": 6077,
-            "foraging": 1338,
-            "fishing": 605,
-            "alchemy": 1328,
-            "enchanting": 1650,
-            "taming": 2617,
-            "zombie": 2090,
-            "spider": 2159,
-            "wolf": 3969
+            "farming": 10911,
+            "mining": 2208,
+            "combat": 5626,
+            "foraging": 1239,
+            "fishing": 560,
+            "alchemy": 1232,
+            "enchanting": 2170,
+            "taming": 3741,
+            "zombie": 4111,
+            "spider": 2015,
+            "wolf": 3675,
+            "minions": 3650
+        }
+    },
+    "scorchchamp": {
+        "score": 41138.0,
+        "breakdown": {
+            "farming": 10911,
+            "mining": 2208,
+            "combat": 5626,
+            "foraging": 1239,
+            "fishing": 560,
+            "alchemy": 1232,
+            "enchanting": 2170,
+            "taming": 3741,
+            "zombie": 4111,
+            "spider": 2015,
+            "wolf": 3675,
+            "minions": 3650
         }
     },
     "fel1xxxxx": {
@@ -424,16 +442,16 @@
         }
     },
     "kitsuny": {
-        "score": 5638.0,
+        "score": 5646.0,
         "breakdown": {
             "farming": 1392,
             "mining": 809,
             "combat": 33,
             "foraging": 318,
-            "fishing": 1025,
+            "fishing": 1034,
             "alchemy": 3,
             "enchanting": 1472,
-            "taming": 582,
+            "taming": 583,
             "zombie": 2,
             "spider": 0,
             "wolf": 0
@@ -1681,22 +1699,6 @@
             "wolf": 0
         }
     },
-    "scorchchamp": {
-        "score": 676.0,
-        "breakdown": {
-            "farming": 53,
-            "mining": 373,
-            "combat": 57,
-            "foraging": 70,
-            "fishing": 32,
-            "alchemy": 15,
-            "enchanting": 37,
-            "taming": 37,
-            "zombie": 0,
-            "spider": 2,
-            "wolf": 0
-        }
-    },
     "goldenwattle": {
         "score": 641.0,
         "breakdown": {
@@ -2009,6 +2011,23 @@
             "wolf": 0
         }
     },
+    "creepertv_1": {
+        "score": 55.0,
+        "breakdown": {
+            "farming": 7,
+            "mining": 13,
+            "combat": 7,
+            "foraging": 1,
+            "fishing": 8,
+            "alchemy": 0,
+            "enchanting": 7,
+            "taming": 4,
+            "zombie": 0,
+            "spider": 7,
+            "wolf": 1,
+            "minions": 0
+        }
+    },
     "yurino": {
         "score": 48.0,
         "breakdown": {
@@ -2116,5 +2135,9 @@
             "spider": 0,
             "wolf": 0
         }
+    },
+    "scorch": {
+        "score": 0.0,
+        "breakdown": {}
     }
 }

@@ -1,102 +1,111 @@
 
 [		
-    {
-    "name":"Farming",
-    "maxXP": 111672425,
-    "matGather": 0,
-    "effort": 1,
-    "XPh": 450000,
-    "time": null,
-    "ratio": null
+	{
+	"name":"Farming",
+	"maxXP": 111672425,
+	"matGather": 0,
+	"effort": 1,
+	"XPh": 450000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Mining",
-    "maxXP": 111672425,
-    "matGather": 0,
-    "effort": 1,
-    "XPh": 200000,
-    "time": null,
-    "ratio": null
+	"name":"Mining",
+	"maxXP": 111672425,
+	"matGather": 0,
+	"effort": 0.5,
+	"XPh": 200000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Combat",
-    "maxXP": 111672425,
-    "matGather": 210,
-    "effort": 2,
-    "XPh": 800000,
-    "time": null,
-    "ratio": null
+	"name":"Combat",
+	"maxXP": 111672425,
+	"matGather": 210,
+	"effort": 2,
+	"XPh": 800000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Foraging",
-    "maxXP": 55172425,
-    "matGather": 0,
-    "effort": 2,
-    "XPh": 450000,
-    "time": null,
-    "ratio": null
+	"name":"Foraging",
+	"maxXP": 55172425,
+	"matGather": 0,
+	"effort": 3,
+	"XPh": 450000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Fishing",
-    "maxXP": 55172425,
-    "matGather": 0,
-    "effort": 1.5,
-    "XPh": 300000,
-    "time": null,
-    "ratio": null
+	"name":"Fishing",
+	"maxXP": 55172425,
+	"matGather": 0,
+	"effort": 1.5,
+	"XPh": 300000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Alchemy",
-    "maxXP": 55172425,
-    "matGather": 25,
-    "effort": 1,
-    "XPh": 18390808,
-    "time": null,
-    "ratio": null
+	"name":"Alchemy",
+	"maxXP": 55172425,
+	"matGather": 25,
+	"effort": 1,
+	"XPh": 18390808,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Enchanting",
-    "maxXP": 111672425,
-    "matGather": 5,
-    "effort": 0.2,
-    "XPh": 750000,
-    "time": null,
-    "ratio": null
+	"name":"Enchanting",
+	"maxXP": 111672425,
+	"matGather": 5,
+	"effort": 0.2,
+	"XPh": 750000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name": "Taming",
-    "maxXP": 55172425,
-    "matGather": 0,
-    "effort": 0.5,
-    "XPh": 500000,
-    "time": null,
-    "ratio": null
+	"name": "Taming",
+	"maxXP": 55172425,
+	"matGather": 0,
+	"effort": 0.5,
+	"XPh": 500000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"Zombie",
-    "maxXP": 1000000,
-    "matGather": 23,
-    "effort": 2,
-    "XPh": 95000,
-    "time": null,
-    "ratio": null
+	"name":"Zombie",
+	"maxXP": 1000000,
+	"matGather": 23,
+	"effort": 2,
+	"XPh": 95000,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"spider",
-    "maxXP": 1000000,
-    "matGather": 21,
-    "effort": 1.75,
-    "XPh": 71400,
-    "time": null,
-    "ratio": null
+	"name":"spider",
+	"maxXP": 1000000,
+	"matGather": 21,
+	"effort": 1.75,
+	"XPh": 71400,
+	"time": null,
+	"real_time": null
 },
 {
-    "name":"wolf",
-    "maxXP": 1000000,
-    "matGather": 33,
-    "effort": 2.25,
-    "XPh": 44400,
-    "time": null,
-    "ratio": null
+	"name":"wolf",
+	"maxXP": 1000000,
+	"matGather": 33,
+	"effort": 2.25,
+	"XPh": 44400,
+	"time": null,
+	"real_time": null
+},
+{
+	"name":"minions",
+	"maxXP": 636,
+	"matGather": 0,
+	"effort": 2,
+	"XPh": 4,
+	"time": null,
+	"real_time": null
 }
 ]
