@@ -51,16 +51,16 @@
         }
     },
     "imasquirtl": {
-        "score": 19346.0,
+        "score": 19367.0,
         "breakdown": {
-            "farming": 4610,
+            "farming": 4626,
             "mining": 473,
             "combat": 1580,
             "foraging": 179,
             "fishing": 1768,
             "alchemy": 12,
             "enchanting": 1846,
-            "taming": 3801,
+            "taming": 3806,
             "zombie": 1294,
             "spider": 298,
             "wolf": 815,
@@ -186,16 +186,16 @@
         }
     },
     "antidepresseurs": {
-        "score": 11059.0,
+        "score": 11071.0,
         "breakdown": {
             "farming": 2197,
-            "mining": 230,
+            "mining": 239,
             "combat": 165,
             "foraging": 1104,
             "fishing": 1224,
             "alchemy": 39,
             "enchanting": 1066,
-            "taming": 1288,
+            "taming": 1291,
             "zombie": 47,
             "spider": 0,
             "wolf": 160,
@@ -581,6 +581,23 @@
             "minions": 173
         }
     },
+    "tbskitty": {
+        "score": 5227.0,
+        "breakdown": {
+            "farming": 2047,
+            "mining": 88,
+            "combat": 169,
+            "foraging": 312,
+            "fishing": 1184,
+            "alchemy": 68,
+            "enchanting": 212,
+            "taming": 594,
+            "zombie": 10,
+            "spider": 0,
+            "wolf": 163,
+            "minions": 380
+        }
+    },
     "fion_lol": {
         "score": 5209.0,
         "breakdown": {
@@ -732,20 +749,6 @@
             "spider": 0,
             "wolf": 0,
             "minions": 287
-        }
-    },
-    "tbskitty": {
-        "score": 4262.0,
-        "breakdown": {
-            "farming": 2038,
-            "mining": 198,
-            "combat": 190,
-            "foraging": 234,
-            "fishing": 1331,
-            "alchemy": 77,
-            "zombie": 11,
-            "spider": 0,
-            "wolf": 183
         }
     },
     "tylertheturtled": {
