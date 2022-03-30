@@ -31,7 +31,7 @@ async def on_message(message):
 
     if message.content == 'test':
         msg = BMC.newMessage(title="", description="Test worked!")
-        await message.reply(embed=msg.getEmbed())
+        await message.reply(embed=msg)
     await bot.process_commands(message)
 
 

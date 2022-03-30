@@ -19,7 +19,7 @@ async def startApplicationMessage():
     await deleteOldApplicationMessages()
     channel = bot.get_channel(APPLICATION_CHANNEL)
     embed = BMC.newMessage(title=APPLICATION_TITLE, description=APPLICATION_DESC.format(MINIMUM_WEIGHT))
-    message = await channel.send(embed=embed.getEmbed())
+    message = await channel.send(embed=embed)
     await message.add_reaction(CHECK_EMOJI)
     await message.add_reaction(CROSS_EMOJI)
 
@@ -45,4 +45,4 @@ async def generateQueueList():
     with open(WHITELIST, 'r') as file: data = json.load(file)
     desc = "\n".join([username for username in data])
     embed = BMC.newMessage(title=APPLICATION_LIST_TITLE, description=desc)
-    return embed.getEmbed()
+    return embed

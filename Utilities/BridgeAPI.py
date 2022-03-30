@@ -14,7 +14,7 @@ def getMessageData():
 
 async def sendMessageAsTelofik(message):
     channel = bot.get_channel(SWEATS_BRIDGE_CHANNEL)
-    await channel.send(embed=BMC.newMessage(title=message[:250]).getEmbed())
+    await channel.send(embed=BMC.newMessage(title=message[:250]))
     sendAPIRequest('/sendmessage', {"message": message})
 
 def getPlayerMeMessage(username):

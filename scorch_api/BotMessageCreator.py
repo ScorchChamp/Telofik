@@ -16,11 +16,6 @@ class BotMessage:
     embed = None
     def __init__(self, message: str = "", version: str = "v1.0", color: discord.Colour = discord.Colour.blue(), title: str = "", name: str = "", description: str = ""):
         self.embed = discord.Embed(title=title, description=description, colour=color)
-        self.setFooter(text = name + " " + version)
-
-    def setFooter(self, text: str, icon_url: str = ""):
-        self.embed.set_footer(text=text, icon_url=icon_url)
-
-    def getEmbed(self):
+        self.embed.set_footer(text=name + " " + version, icon_url="https://images-ext-2.discordapp.net/external/6h3wHPrvusV-c3Qym51q3AroTqRlVzylhmn1Dp-8cio/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/329996760053317632/effa3ffb2dd8730d5fa215d141835d90.png")
         return self.embed
-
+        
