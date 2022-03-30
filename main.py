@@ -9,5 +9,5 @@ config = dotenv_values(".env")
 # Setup environment config
 setupLogger()
 
-if __name__=="__main__":
-    startBot(config['DISCORD_TOKEN'])
+if __name__=="__main__": startBot(config['DISCORD_TOKEN'])
+

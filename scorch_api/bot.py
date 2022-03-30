@@ -1,15 +1,17 @@
 from discord.ext import commands
 from scorch_api.BotMessageCreator import BotMessageCreator
+import os
+
+API_BASE = 'http://192.168.1.100:8880/api'
+SWEATS_BRIDGE_CHANNEL = 932028296097583134
+MESSAGE_JSON = BASE_PATH + "/messages.json"
+
 
 bot = commands.Bot(command_prefix='s+')
 BMC = BotMessageCreator(name="SSG Bot by Scorch#8227 (ScorchChamp)", version="v2.0")
 
-
-
 @bot.event
-async def on_ready():
-    print(f'Logged in as: {bot.user}')
+async def on_ready(): print(f'Logged in as: {bot.user}')
 
-
-def startBot(token):
-    bot.run(token)
+def startBot(token): bot.run(token)
+def getBasePath(file): return os.path.dirname(os.path.realpath(file))
