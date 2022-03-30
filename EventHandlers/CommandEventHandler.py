@@ -27,9 +27,7 @@ async def anarchy(ctx):
 @bot.command()
 async def bdweight(ctx):
     username = ctx.author.display_name
-    breakdown = (await getWeight(username))[1]
-    bd = '\n'.join([f"{item}: {breakdown[item]}" for item in breakdown])
-    await ctx.reply(embed=BMC.newMessage(title=f'{username}, your score breakdown:', description=bd))
+    await ctx.reply(embed=BMC.newMessage(title=f'{username}, your score breakdown:', description=await getBreakdownFormatted(username)))
 
 @bot.command()
 async def top(ctx):

@@ -42,7 +42,13 @@ async def updateChannelForApplications():
 
 
 async def generateQueueList():
-    with open(WHITELIST, 'r') as file: data = json.load(file)
+    try:
+        with open(WHITELIST, 'r') as file: data = json.load(file)
+    except:
+        with open(WHITELIST, 'w') as file: 
+            file.write("[]")
+            data = []
+
     desc = "\n".join([username for username in data])
     embed = BMC.newMessage(title=APPLICATION_LIST_TITLE, description=desc)
     return embed

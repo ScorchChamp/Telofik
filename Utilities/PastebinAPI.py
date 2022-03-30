@@ -1,6 +1,13 @@
 import requests
 from dotenv import load_dotenv, dotenv_values
+import Utilities.Weights.playerStore as playerStore
+import Utilities.PastebinAPI as PastebinAPI
+import json
 load_dotenv()
+
+
+async def pasteStoreData():
+    return await PastebinAPI.pasteData(json.dumps(await playerStore.getFullList(), indent=4))
 
 async def pasteData(values):
     login_data = {

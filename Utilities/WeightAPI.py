@@ -1,7 +1,6 @@
-import requests
 import Utilities.HypixelAPI as HypixelAPI
 import Utilities.MojangAPI as MojangAPI
-import  Utilities.Weights.playerStore as playerStore
+import Utilities.Weights.playerStore as playerStore
 from dotenv import load_dotenv, dotenv_values
 import time
 import json
@@ -10,19 +9,23 @@ load_dotenv()
 API_KEY = dotenv_values('.env')["API_KEY"]
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
+async def getBreakdownFormatted(username):
+    breakdown = (await getWeight(username))[1]
+    return '\n'.join([f"{item}: {breakdown[item]}" for item in breakdown])
+
+async def getBreakdownMAXFormatted():
+    score, breakdown = await maxStats()
+    return '\n'.join([f"{item}: {breakdown[item]}" for item in breakdown])
+
 
 
 async def getWeightUUID(uuid):
 	if not uuid: return (0,{})
-	try:
-		stranded_data = await HypixelAPI.getStrandedData(uuid)
-	except:
-		print("Something went wrong while retrieving stranded data!")
-		return (0, {})
+	try: stranded_data = await HypixelAPI.getStrandedData(uuid)
+	except: return (0, {})
 	try:
 		weights = [getStrandedWeight(member_data["members"][uuid]) for member_data in stranded_data]
 		if not len(weights): return (0,{})
-		print(weights)
 		return max(weights)
 	except Exception as e:
 		print(e)
@@ -31,6 +34,7 @@ async def getWeightUUID(uuid):
 
 async def getWeight(username):
 	uuid = await MojangAPI.getUUIDFromUsername(username)
+	if not uuid: return (0,{})
 	weight, breakdown = await getWeightUUID(uuid)
 	playerStore.storePlayerScore(username, weight, breakdown)
 	return weight, breakdown
@@ -45,7 +49,6 @@ async def maxStats():
 def generateWeightParts():
 	with open(BASE_DIR + "/weight_parts.json", "r") as f: weight_parts = json.load(f)
 	for part in weight_parts: 
-		print(part)
 		part["time"] = part["maxXP"] / part["XPh"]
 		part["ratio"] = (part["time"] * part["effort"]) + part["matGather"]
 	totalWeight = sum([part["ratio"] for part in weight_parts])
@@ -58,15 +61,11 @@ def getStrandedWeight(profileData):
     total_score = 0
 
     for part in weight_parts:
-        name = str(part["name"]).lower()
-
-        try:
-            xp_name = profileData[f"experience_skill_{name}"]
+        name = str(part["name"]).lower() 
+        try: xp_name = profileData[f"experience_skill_{name}"]
         except:
-            try:
-                xp_name = profileData["slayer_bosses"][name]["xp"]
-            except:
-                xp_name = 0
+            try: xp_name = profileData["slayer_bosses"][name]["xp"]
+            except: xp_name = 0
         xp_name = min(xp_name, part["maxXP"])
         multiplier = part["ratio"] * (max_score/totalWeight)
         score = (xp_name/part["maxXP"]) * multiplier

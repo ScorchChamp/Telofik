@@ -27,6 +27,6 @@ async def getAllPlayerNamesInGuild(guild_id):
     uuids = await getAllPlayersInGuild(guild_id)
     return [await MojangAPI.getUsernameFromUUID(uuid) for uuid in uuids]
 
-async def getHypixelData(endpoint, params):
+def getHypixelData(endpoint, params):
     params["key"] = API_KEY
-    return requests.get(f'{HYPIXEL_API}/{endpoint}', params=params)
+    return requests.get(f'{HYPIXEL_API}/{endpoint}', params=params).json()

@@ -42,6 +42,7 @@ async def getFullList():
     
 
 async def getSenitherPlacement(playername):
+    playername = str(playername).lower()
     score, breakdown = await WeightAPI.getWeight(playername)
     storePlayerScore(playername, score, breakdown)
     index = 0
@@ -49,6 +50,5 @@ async def getSenitherPlacement(playername):
         data = json.load(file)
         for player in data:
             index += 1
-            if player == playername:
-                return index, data[player]
-    return (0,0)
+            if player == playername: return index, data[player]
+    return (0,{"score": -1})

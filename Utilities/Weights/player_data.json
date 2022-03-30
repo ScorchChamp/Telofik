@@ -1,10 +1,10 @@
 {
     "lascivi": {
-        "score": 35989.0,
+        "score": 35991.0,
         "breakdown": {
             "farming": 11773,
             "mining": 2385,
-            "combat": 6075,
+            "combat": 6077,
             "foraging": 1338,
             "fishing": 605,
             "alchemy": 1328,
@@ -64,16 +64,16 @@
         }
     },
     "btd": {
-        "score": 14601.0,
+        "score": 14616.0,
         "breakdown": {
             "farming": 11623,
-            "mining": 243,
+            "mining": 247,
             "combat": 33,
             "foraging": 42,
-            "fishing": 110,
+            "fishing": 120,
             "alchemy": 36,
             "enchanting": 57,
-            "taming": 2456,
+            "taming": 2458,
             "zombie": 0,
             "spider": 0,
             "wolf": 0
@@ -252,16 +252,16 @@
         }
     },
     "leukor": {
-        "score": 8799.0,
+        "score": 8808.0,
         "breakdown": {
             "farming": 2192,
-            "mining": 1095,
+            "mining": 1102,
             "combat": 1554,
             "foraging": 468,
             "fishing": 650,
             "alchemy": 9,
             "enchanting": 162,
-            "taming": 839,
+            "taming": 840,
             "zombie": 1431,
             "spider": 0,
             "wolf": 400
@@ -359,22 +359,6 @@
             "wolf": 60
         }
     },
-    "juenez": {
-        "score": 6543.0,
-        "breakdown": {
-            "farming": 1085,
-            "mining": 281,
-            "combat": 129,
-            "foraging": 268,
-            "fishing": 1195,
-            "alchemy": 9,
-            "enchanting": 1417,
-            "taming": 2075,
-            "zombie": 55,
-            "spider": 0,
-            "wolf": 28
-        }
-    },
     "mpmt": {
         "score": 6487.0,
         "breakdown": {
@@ -440,16 +424,16 @@
         }
     },
     "kitsuny": {
-        "score": 5585.0,
+        "score": 5638.0,
         "breakdown": {
             "farming": 1392,
             "mining": 809,
             "combat": 33,
             "foraging": 318,
-            "fishing": 1001,
+            "fishing": 1025,
             "alchemy": 3,
-            "enchanting": 1452,
-            "taming": 575,
+            "enchanting": 1472,
+            "taming": 582,
             "zombie": 2,
             "spider": 0,
             "wolf": 0
@@ -1355,22 +1339,6 @@
             "wolf": 0
         }
     },
-    "deadpork19": {
-        "score": 1597.0,
-        "breakdown": {
-            "farming": 179,
-            "mining": 140,
-            "combat": 183,
-            "foraging": 21,
-            "fishing": 663,
-            "alchemy": 1,
-            "enchanting": 299,
-            "taming": 91,
-            "zombie": 13,
-            "spider": 5,
-            "wolf": 1
-        }
-    },
     "mosiac": {
         "score": 1577.0,
         "breakdown": {
@@ -2114,6 +2082,14 @@
             "spider": 0,
             "wolf": 0
         }
+    },
+    "juenez": {
+        "score": 0.0,
+        "breakdown": {}
+    },
+    "deadpork19": {
+        "score": 0.0,
+        "breakdown": {}
     },
     "metanea": {
         "score": 0.0,
