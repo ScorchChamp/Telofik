@@ -40,10 +40,7 @@ async def getWeight(username):
 	return weight, breakdown
 
 async def maxStats():
-	weight_parts, totalTime, max_score = generateWeightParts()
-	res = {}
-	for part in weight_parts: res[part['name']] = round((part["real_time"] / totalTime) * max_score)
-	return max_score, res
+	return getStrandedWeight({}, max=True)
 
 def generateWeightParts():
 	with open(BASE_DIR + "/weight_parts.json", "r") as f: weight_parts = json.load(f)
@@ -53,21 +50,24 @@ def generateWeightParts():
 		if part["name"] == "minions": part["maxXP"] = part["maxXP"] ** 3
 	return weight_parts, sum([part["real_time"] for part in weight_parts]), 100000
 
-def getStrandedWeight(profileData):
+def getStrandedWeight(profileData, max = False):
 	weight_parts, totalTime, max_score = generateWeightParts()
 	score_breakdown = {}
 	total_score = 0
 
 	for part in weight_parts:
 		name = str(part["name"]).lower() 
-		if name == "minions": 
-			xp_name = len(profileData[f"crafted_generators"]) ** 3
-			score_breakdown[name] = round((part["real_time"] / totalTime) * max_score * (xp_name / part["maxXP"]))
+		if max: xp_name = part["maxXP"]
 		else: 
-			try: xp_name = profileData[f"experience_skill_{name}"]
-			except:
-				try: xp_name = profileData["slayer_bosses"][name]["xp"]
-				except: xp_name = 0
-			score_breakdown[name] = round((part["real_time"] / totalTime) * max_score * (xp_name / part["maxXP"]))
+			if name == "minions": 
+				xp_name = len(profileData[f"crafted_generators"]) ** 3
+				# score_breakdown[name] = round((part["real_time"] / totalTime) * max_score * (xp_name / part["maxXP"]))
+			else: 
+				try: xp_name = profileData[f"experience_skill_{name}"]
+				except:
+					try: xp_name = profileData["slayer_bosses"][name]["xp"]
+					except: xp_name = 0
+		xp_name = min(xp_name, part["maxXP"])
+		score_breakdown[name] = round((part["real_time"] / totalTime) * max_score * (xp_name / part["maxXP"]))
 		total_score += score_breakdown[name]
 	return round(total_score), score_breakdown

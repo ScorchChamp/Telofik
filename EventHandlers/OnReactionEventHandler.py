@@ -12,6 +12,7 @@ STRANDED_SWEATS_GUILD_ID = dotenv_values('.env')["STRANDED_SWEATS_GUILD_ID"]
 
 @bot.event
 async def on_reaction_add(reaction, user):
+	data=[] 
 	if user.bot: return
 	if reaction.message.channel.id == APPLICATION_CHANNEL:
 		with open(WHITELIST, 'r') as file: data = json.load(file)

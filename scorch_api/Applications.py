@@ -5,10 +5,10 @@ import json
 APPLICATION_CHANNEL = 927969522051334185
 APPLICATION_TITLE = "Stranded Sweats Application Form"
 APPLICATION_DESC = "Press the button below to submit an application! \
-	\n\n **The minimum Senither weight requirement is: {}.** \
+	\n\n **The minimum Stranded weight requirement is: {}.** \
 	\n\nIf your weight is below this limit, your application will be automatically rejected! (Check your weight by doing s+weight)"
 APPLICATION_LIST_TITLE = "Application Queue List!"
-MINIMUM_WEIGHT = 500
+MINIMUM_WEIGHT = 2500
 CHECK_EMOJI = "✅"
 CROSS_EMOJI = "❌"
 

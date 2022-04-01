@@ -1,111 +1,110 @@
-
-[		
-	{
-	"name":"Farming",
-	"maxXP": 111672425,
-	"matGather": 0,
-	"effort": 1,
-	"XPh": 450000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Mining",
-	"maxXP": 111672425,
-	"matGather": 0,
-	"effort": 0.5,
-	"XPh": 200000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Combat",
-	"maxXP": 111672425,
-	"matGather": 210,
-	"effort": 2,
-	"XPh": 800000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Foraging",
-	"maxXP": 55172425,
-	"matGather": 0,
-	"effort": 3,
-	"XPh": 450000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Fishing",
-	"maxXP": 55172425,
-	"matGather": 0,
-	"effort": 1.5,
-	"XPh": 300000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Alchemy",
-	"maxXP": 55172425,
-	"matGather": 25,
-	"effort": 1,
-	"XPh": 18390808,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Enchanting",
-	"maxXP": 111672425,
-	"matGather": 5,
-	"effort": 0.2,
-	"XPh": 750000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name": "Taming",
-	"maxXP": 55172425,
-	"matGather": 0,
-	"effort": 0.5,
-	"XPh": 500000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"Zombie",
-	"maxXP": 1000000,
-	"matGather": 23,
-	"effort": 2,
-	"XPh": 95000,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"spider",
-	"maxXP": 1000000,
-	"matGather": 21,
-	"effort": 1.75,
-	"XPh": 71400,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"wolf",
-	"maxXP": 1000000,
-	"matGather": 33,
-	"effort": 2.25,
-	"XPh": 44400,
-	"time": null,
-	"real_time": null
-},
-{
-	"name":"minions",
-	"maxXP": 636,
-	"matGather": 0,
-	"effort": 2,
-	"XPh": 4,
-	"time": null,
-	"real_time": null
-}
+[
+    {
+        "name": "Farming",
+        "maxXP": 111672425,
+        "matGather": 0,
+        "effort": 1,
+        "XPh": 450000,
+        "time": 248.16094444444445,
+        "real_time": 248.16094444444445
+    },
+    {
+        "name": "Mining",
+        "maxXP": 111672425,
+        "matGather": 0,
+        "effort": 0.5,
+        "XPh": 200000,
+        "time": 558.362125,
+        "real_time": 279.1810625
+    },
+    {
+        "name": "Combat",
+        "maxXP": 111672425,
+        "matGather": 210,
+        "effort": 2,
+        "XPh": 800000,
+        "time": 139.59053125,
+        "real_time": 489.1810625
+    },
+    {
+        "name": "Foraging",
+        "maxXP": 55172425,
+        "matGather": 0,
+        "effort": 3,
+        "XPh": 450000,
+        "time": 122.60538888888888,
+        "real_time": 367.8161666666666
+    },
+    {
+        "name": "Fishing",
+        "maxXP": 55172425,
+        "matGather": 0,
+        "effort": 1.5,
+        "XPh": 300000,
+        "time": 183.90808333333334,
+        "real_time": 275.862125
+    },
+    {
+        "name": "Alchemy",
+        "maxXP": 55172425,
+        "matGather": 25,
+        "effort": 1,
+        "XPh": 18390808,
+        "time": 3.00000005437499,
+        "real_time": 28.00000005437499
+    },
+    {
+        "name": "Enchanting",
+        "maxXP": 111672425,
+        "matGather": 5,
+        "effort": 0.2,
+        "XPh": 750000,
+        "time": 148.89656666666667,
+        "real_time": 34.779313333333334
+    },
+    {
+        "name": "Taming",
+        "maxXP": 55172425,
+        "matGather": 0,
+        "effort": 0.5,
+        "XPh": 500000,
+        "time": 110.34485,
+        "real_time": 55.172425
+    },
+    {
+        "name": "Zombie",
+        "maxXP": 1000000,
+        "matGather": 23,
+        "effort": 2,
+        "XPh": 95000,
+        "time": 10.526315789473685,
+        "real_time": 44.05263157894737
+    },
+    {
+        "name": "spider",
+        "maxXP": 1000000,
+        "matGather": 21,
+        "effort": 1.75,
+        "XPh": 71400,
+        "time": 14.005602240896359,
+        "real_time": 45.509803921568626
+    },
+    {
+        "name": "wolf",
+        "maxXP": 1000000,
+        "matGather": 33,
+        "effort": 2.25,
+        "XPh": 44400,
+        "time": 22.52252252252252,
+        "real_time": 83.67567567567568
+    },
+    {
+        "name": "minions",
+        "maxXP": 631,
+        "matGather": 0,
+        "effort": 2,
+        "XPh": 4,
+        "time": 3.005843576173427e+226,
+        "real_time": 6.011687152346854e+226
+    }
 ]

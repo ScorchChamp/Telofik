@@ -1,21 +1,4 @@
 {
-    "lascivi": {
-        "score": 44019.0,
-        "breakdown": {
-            "farming": 10947,
-            "mining": 1108,
-            "combat": 5645,
-            "foraging": 1864,
-            "fishing": 562,
-            "alchemy": 1237,
-            "enchanting": 2177,
-            "taming": 3754,
-            "zombie": 4125,
-            "spider": 2022,
-            "wolf": 3687,
-            "minions": 6891
-        }
-    },
     "fel1xxxxx": {
         "score": 43838.0,
         "breakdown": {
@@ -50,38 +33,140 @@
             "minions": 1002
         }
     },
-    "imasquirtl": {
-        "score": 19367.0,
+    "angykry": {
+        "score": 29905.0,
         "breakdown": {
-            "farming": 4626,
-            "mining": 473,
-            "combat": 1580,
+            "farming": 6300,
+            "mining": 727,
+            "combat": 2504,
+            "foraging": 2788,
+            "fishing": 4576,
+            "alchemy": 1257,
+            "enchanting": 3066,
+            "taming": 3569,
+            "zombie": 2848,
+            "spider": 857,
+            "wolf": 125,
+            "minions": 1288
+        }
+    },
+    "au3tin253": {
+        "score": 28949.0,
+        "breakdown": {
+            "farming": 6364,
+            "mining": 171,
+            "combat": 4657,
+            "foraging": 2023,
+            "fishing": 2720,
+            "alchemy": 1249,
+            "enchanting": 2580,
+            "taming": 2615,
+            "zombie": 2976,
+            "spider": 2005,
+            "wolf": 969,
+            "minions": 620
+        }
+    },
+    "tactal": {
+        "score": 23498.0,
+        "breakdown": {
+            "farming": 9013,
+            "mining": 635,
+            "combat": 804,
+            "foraging": 205,
+            "fishing": 2328,
+            "alchemy": 1234,
+            "enchanting": 1873,
+            "taming": 4998,
+            "zombie": 477,
+            "spider": 218,
+            "wolf": 412,
+            "minions": 1301
+        }
+    },
+    "acopic": {
+        "score": 18754.0,
+        "breakdown": {
+            "farming": 229,
+            "mining": 170,
+            "combat": 1051,
+            "foraging": 188,
+            "fishing": 12257,
+            "alchemy": 7,
+            "enchanting": 735,
+            "taming": 2471,
+            "zombie": 434,
+            "spider": 865,
+            "wolf": 2,
+            "minions": 345
+        }
+    },
+    "imasquirtl": {
+        "score": 18345.0,
+        "breakdown": {
+            "farming": 4841,
+            "mining": 485,
+            "combat": 1738,
             "foraging": 179,
-            "fishing": 1768,
+            "fishing": 1903,
             "alchemy": 12,
-            "enchanting": 1846,
-            "taming": 3806,
-            "zombie": 1294,
+            "enchanting": 1534,
+            "taming": 2434,
+            "zombie": 1295,
             "spider": 298,
-            "wolf": 815,
-            "minions": 2670
+            "wolf": 888,
+            "minions": 2738
+        }
+    },
+    "slash0s": {
+        "score": 17382.0,
+        "breakdown": {
+            "farming": 3607,
+            "mining": 573,
+            "combat": 493,
+            "foraging": 897,
+            "fishing": 1345,
+            "alchemy": 87,
+            "enchanting": 1820,
+            "taming": 1279,
+            "zombie": 194,
+            "spider": 276,
+            "wolf": 2,
+            "minions": 6809
         }
     },
     "iserik": {
-        "score": 16168.0,
+        "score": 16670.0,
         "breakdown": {
-            "farming": 3873,
-            "mining": 514,
-            "combat": 2063,
+            "farming": 3884,
+            "mining": 516,
+            "combat": 2066,
             "foraging": 383,
             "fishing": 751,
             "alchemy": 156,
             "enchanting": 544,
-            "taming": 1300,
+            "taming": 1304,
             "zombie": 362,
             "spider": 98,
             "wolf": 3687,
-            "minions": 2437
+            "minions": 2919
+        }
+    },
+    "shadyarcade": {
+        "score": 16444.0,
+        "breakdown": {
+            "farming": 5824,
+            "mining": 281,
+            "combat": 612,
+            "foraging": 1332,
+            "fishing": 2066,
+            "alchemy": 140,
+            "enchanting": 1062,
+            "taming": 1783,
+            "zombie": 24,
+            "spider": 16,
+            "wolf": 1008,
+            "minions": 2296
         }
     },
     "andergamez": {
@@ -101,6 +186,40 @@
             "minions": 2478
         }
     },
+    "ancientoldman": {
+        "score": 15340.0,
+        "breakdown": {
+            "farming": 3182,
+            "mining": 521,
+            "combat": 306,
+            "foraging": 5626,
+            "fishing": 1189,
+            "alchemy": 75,
+            "enchanting": 1006,
+            "taming": 1231,
+            "zombie": 1,
+            "spider": 40,
+            "wolf": 3,
+            "minions": 2160
+        }
+    },
+    "lascivi": {
+        "score": 14650.0,
+        "breakdown": {
+            "farming": 0,
+            "mining": 0,
+            "combat": 0,
+            "foraging": 0,
+            "fishing": 0,
+            "alchemy": 0,
+            "enchanting": 0,
+            "taming": 0,
+            "zombie": 1943,
+            "spider": 2008,
+            "wolf": 3691,
+            "minions": 7008
+        }
+    },
     "btd": {
         "score": 14529.0,
         "breakdown": {
@@ -116,6 +235,40 @@
             "spider": 0,
             "wolf": 0,
             "minions": 1048
+        }
+    },
+    "lightning_j1": {
+        "score": 14416.0,
+        "breakdown": {
+            "farming": 6801,
+            "mining": 263,
+            "combat": 709,
+            "foraging": 97,
+            "fishing": 1673,
+            "alchemy": 1322,
+            "enchanting": 1541,
+            "taming": 1985,
+            "zombie": 1,
+            "spider": 1,
+            "wolf": 2,
+            "minions": 21
+        }
+    },
+    "_trm": {
+        "score": 13520.0,
+        "breakdown": {
+            "farming": 8228,
+            "mining": 585,
+            "combat": 60,
+            "foraging": 266,
+            "fishing": 785,
+            "alchemy": 4,
+            "enchanting": 802,
+            "taming": 1529,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1261
         }
     },
     "mrcallaghan": {
@@ -135,20 +288,21 @@
             "minions": 307
         }
     },
-    "_trm": {
-        "score": 12721.0,
+    "xkamisherex": {
+        "score": 12819.0,
         "breakdown": {
-            "farming": 8221,
-            "mining": 1258,
-            "combat": 55,
-            "foraging": 126,
-            "fishing": 832,
-            "alchemy": 4,
-            "enchanting": 791,
-            "taming": 1433,
-            "zombie": 0,
-            "spider": 0,
-            "wolf": 0
+            "farming": 5480,
+            "mining": 359,
+            "combat": 411,
+            "foraging": 516,
+            "fishing": 1651,
+            "alchemy": 52,
+            "enchanting": 1326,
+            "taming": 1853,
+            "zombie": 47,
+            "spider": 205,
+            "wolf": 26,
+            "minions": 893
         }
     },
     "sat_nicgodz": {
@@ -185,21 +339,38 @@
             "minions": 2827
         }
     },
-    "antidepresseurs": {
-        "score": 11071.0,
+    "z109": {
+        "score": 11275.0,
         "breakdown": {
-            "farming": 2197,
-            "mining": 239,
-            "combat": 165,
+            "farming": 3462,
+            "mining": 481,
+            "combat": 908,
+            "foraging": 107,
+            "fishing": 234,
+            "alchemy": 521,
+            "enchanting": 1083,
+            "taming": 920,
+            "zombie": 654,
+            "spider": 802,
+            "wolf": 0,
+            "minions": 2103
+        }
+    },
+    "antidepresseurs": {
+        "score": 11245.0,
+        "breakdown": {
+            "farming": 2204,
+            "mining": 296,
+            "combat": 166,
             "foraging": 1104,
             "fishing": 1224,
             "alchemy": 39,
-            "enchanting": 1066,
-            "taming": 1291,
+            "enchanting": 1100,
+            "taming": 1313,
             "zombie": 47,
             "spider": 0,
             "wolf": 160,
-            "minions": 3539
+            "minions": 3592
         }
     },
     "iaria": {
@@ -217,6 +388,23 @@
             "spider": 0,
             "wolf": 0,
             "minions": 2919
+        }
+    },
+    "ultragold": {
+        "score": 10143.0,
+        "breakdown": {
+            "farming": 2525,
+            "mining": 396,
+            "combat": 304,
+            "foraging": 502,
+            "fishing": 298,
+            "alchemy": 4,
+            "enchanting": 231,
+            "taming": 471,
+            "zombie": 2,
+            "spider": 2,
+            "wolf": 2,
+            "minions": 5406
         }
     },
     "flecki_bunny": {
@@ -251,20 +439,6 @@
             "spider": 562,
             "wolf": 1024,
             "minions": 1261
-        }
-    },
-    "xkamisherex": {
-        "score": 9671.0,
-        "breakdown": {
-            "farming": 5826,
-            "mining": 790,
-            "combat": 450,
-            "foraging": 384,
-            "fishing": 1857,
-            "alchemy": 58,
-            "zombie": 52,
-            "spider": 230,
-            "wolf": 23
         }
     },
     "light19": {
@@ -332,6 +506,40 @@
             "minions": 903
         }
     },
+    "dante__daddy": {
+        "score": 8644.0,
+        "breakdown": {
+            "farming": 2260,
+            "mining": 134,
+            "combat": 367,
+            "foraging": 82,
+            "fishing": 657,
+            "alchemy": 20,
+            "enchanting": 810,
+            "taming": 673,
+            "zombie": 325,
+            "spider": 10,
+            "wolf": 0,
+            "minions": 3306
+        }
+    },
+    "literallymoody": {
+        "score": 8588.0,
+        "breakdown": {
+            "farming": 1187,
+            "mining": 224,
+            "combat": 435,
+            "foraging": 368,
+            "fishing": 2075,
+            "alchemy": 5,
+            "enchanting": 961,
+            "taming": 543,
+            "zombie": 40,
+            "spider": 19,
+            "wolf": 628,
+            "minions": 2103
+        }
+    },
     "glowin_dark": {
         "score": 8539.0,
         "breakdown": {
@@ -347,51 +555,6 @@
             "spider": 201,
             "wolf": 369,
             "minions": 339
-        }
-    },
-    "z109": {
-        "score": 8463.0,
-        "breakdown": {
-            "farming": 3823,
-            "mining": 1054,
-            "combat": 1020,
-            "foraging": 80,
-            "fishing": 263,
-            "alchemy": 586,
-            "zombie": 736,
-            "spider": 902,
-            "wolf": 0
-        }
-    },
-    "slash0s": {
-        "score": 8451.0,
-        "breakdown": {
-            "farming": 3822,
-            "mining": 1259,
-            "combat": 554,
-            "foraging": 673,
-            "fishing": 1513,
-            "alchemy": 98,
-            "zombie": 219,
-            "spider": 311,
-            "wolf": 3
-        }
-    },
-    "dante__daddy": {
-        "score": 8301.0,
-        "breakdown": {
-            "farming": 2180,
-            "mining": 130,
-            "combat": 360,
-            "foraging": 81,
-            "fishing": 657,
-            "alchemy": 20,
-            "enchanting": 762,
-            "taming": 643,
-            "zombie": 325,
-            "spider": 10,
-            "wolf": 0,
-            "minions": 3133
         }
     },
     "everlastingnycoo": {
@@ -412,16 +575,16 @@
         }
     },
     "biohazard103": {
-        "score": 6710.0,
+        "score": 6751.0,
         "breakdown": {
-            "farming": 3025,
-            "mining": 184,
+            "farming": 3049,
+            "mining": 193,
             "combat": 630,
             "foraging": 302,
             "fishing": 318,
-            "alchemy": 6,
+            "alchemy": 7,
             "enchanting": 485,
-            "taming": 924,
+            "taming": 931,
             "zombie": 205,
             "spider": 201,
             "wolf": 56,
@@ -429,37 +592,37 @@
         }
     },
     "isaborb": {
-        "score": 6578.0,
+        "score": 6744.0,
         "breakdown": {
             "farming": 1679,
-            "mining": 422,
-            "combat": 428,
+            "mining": 424,
+            "combat": 458,
             "foraging": 168,
-            "fishing": 1357,
+            "fishing": 1359,
             "alchemy": 69,
-            "enchanting": 1106,
-            "taming": 555,
+            "enchanting": 1210,
+            "taming": 572,
             "zombie": 106,
             "spider": 78,
-            "wolf": 594,
+            "wolf": 605,
             "minions": 16
         }
     },
     "maniac4u": {
-        "score": 6459.0,
+        "score": 6662.0,
         "breakdown": {
-            "farming": 1025,
+            "farming": 1095,
             "mining": 369,
-            "combat": 70,
-            "foraging": 57,
+            "combat": 72,
+            "foraging": 59,
             "fishing": 960,
             "alchemy": 3,
-            "enchanting": 326,
-            "taming": 335,
+            "enchanting": 379,
+            "taming": 360,
             "zombie": 2,
             "spider": 0,
             "wolf": 6,
-            "minions": 3306
+            "minions": 3357
         }
     },
     "mpmt": {
@@ -480,54 +643,88 @@
         }
     },
     "kitsuny": {
-        "score": 6212.0,
+        "score": 6421.0,
         "breakdown": {
-            "farming": 1293,
-            "mining": 376,
-            "combat": 31,
+            "farming": 1364,
+            "mining": 379,
+            "combat": 51,
             "foraging": 443,
-            "fishing": 970,
+            "fishing": 971,
             "alchemy": 3,
-            "enchanting": 1368,
-            "taming": 543,
+            "enchanting": 1439,
+            "taming": 573,
             "zombie": 2,
             "spider": 0,
             "wolf": 0,
-            "minions": 1183
+            "minions": 1196
+        }
+    },
+    "juenez": {
+        "score": 6364.0,
+        "breakdown": {
+            "farming": 1103,
+            "mining": 136,
+            "combat": 136,
+            "foraging": 373,
+            "fishing": 1121,
+            "alchemy": 8,
+            "enchanting": 1363,
+            "taming": 2021,
+            "zombie": 51,
+            "spider": 0,
+            "wolf": 45,
+            "minions": 7
+        }
+    },
+    "windwastaken": {
+        "score": 6351.0,
+        "breakdown": {
+            "farming": 1632,
+            "mining": 149,
+            "combat": 325,
+            "foraging": 174,
+            "fishing": 1512,
+            "alchemy": 69,
+            "enchanting": 914,
+            "taming": 547,
+            "zombie": 195,
+            "spider": 0,
+            "wolf": 3,
+            "minions": 831
         }
     },
     "c1qy": {
-        "score": 6136.0,
+        "score": 6142.0,
         "breakdown": {
-            "farming": 650,
-            "mining": 163,
+            "farming": 652,
+            "mining": 166,
             "combat": 287,
             "foraging": 522,
             "fishing": 35,
             "alchemy": 12,
             "enchanting": 1534,
-            "taming": 310,
+            "taming": 311,
             "zombie": 10,
             "spider": 602,
             "wolf": 0,
             "minions": 2011
         }
     },
-    "juenez": {
-        "score": 6088.0,
+    "tbskitty": {
+        "score": 5783.0,
         "breakdown": {
-            "farming": 1008,
-            "mining": 131,
-            "combat": 120,
-            "foraging": 373,
-            "fishing": 1118,
-            "alchemy": 8,
-            "enchanting": 1317,
-            "taming": 1929,
-            "zombie": 51,
+            "farming": 2408,
+            "mining": 91,
+            "combat": 173,
+            "foraging": 312,
+            "fishing": 1185,
+            "alchemy": 68,
+            "enchanting": 251,
+            "taming": 702,
+            "zombie": 11,
             "spider": 0,
-            "wolf": 26,
-            "minions": 7
+            "wolf": 166,
+            "minions": 416
         }
     },
     "myaltsthis": {
@@ -581,29 +778,12 @@
             "minions": 173
         }
     },
-    "tbskitty": {
-        "score": 5227.0,
-        "breakdown": {
-            "farming": 2047,
-            "mining": 88,
-            "combat": 169,
-            "foraging": 312,
-            "fishing": 1184,
-            "alchemy": 68,
-            "enchanting": 212,
-            "taming": 594,
-            "zombie": 10,
-            "spider": 0,
-            "wolf": 163,
-            "minions": 380
-        }
-    },
     "fion_lol": {
-        "score": 5209.0,
+        "score": 5210.0,
         "breakdown": {
             "farming": 896,
             "mining": 159,
-            "combat": 402,
+            "combat": 403,
             "foraging": 272,
             "fishing": 779,
             "alchemy": 34,
@@ -613,6 +793,23 @@
             "spider": 202,
             "wolf": 2,
             "minions": 170
+        }
+    },
+    "fergerburg3r": {
+        "score": 5018.0,
+        "breakdown": {
+            "farming": 1335,
+            "mining": 168,
+            "combat": 69,
+            "foraging": 205,
+            "fishing": 557,
+            "alchemy": 10,
+            "enchanting": 681,
+            "taming": 761,
+            "zombie": 10,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1222
         }
     },
     "emillime08": {
@@ -630,23 +827,6 @@
             "spider": 0,
             "wolf": 0,
             "minions": 476
-        }
-    },
-    "fergerburg3r": {
-        "score": 4935.0,
-        "breakdown": {
-            "farming": 1281,
-            "mining": 167,
-            "combat": 67,
-            "foraging": 205,
-            "fishing": 556,
-            "alchemy": 10,
-            "enchanting": 681,
-            "taming": 749,
-            "zombie": 10,
-            "spider": 0,
-            "wolf": 0,
-            "minions": 1209
         }
     },
     "speedy_joe": {
@@ -701,50 +881,50 @@
         }
     },
     "matthew8487": {
-        "score": 4507.0,
+        "score": 4553.0,
         "breakdown": {
             "farming": 250,
-            "mining": 424,
+            "mining": 426,
             "combat": 324,
             "foraging": 583,
-            "fishing": 108,
+            "fishing": 119,
             "alchemy": 1,
-            "enchanting": 1153,
-            "taming": 201,
+            "enchanting": 1155,
+            "taming": 203,
             "zombie": 7,
             "spider": 0,
             "wolf": 0,
-            "minions": 1456
+            "minions": 1485
         }
     },
     "danizl": {
-        "score": 4388.0,
+        "score": 4450.0,
         "breakdown": {
-            "farming": 964,
+            "farming": 997,
             "mining": 339,
-            "combat": 698,
-            "foraging": 114,
+            "combat": 700,
+            "foraging": 116,
             "fishing": 512,
             "alchemy": 32,
-            "enchanting": 691,
-            "taming": 420,
+            "enchanting": 702,
+            "taming": 430,
             "zombie": 499,
             "spider": 11,
             "wolf": 41,
-            "minions": 67
+            "minions": 71
         }
     },
     "n1k0laaa": {
-        "score": 4274.0,
+        "score": 4279.0,
         "breakdown": {
             "farming": 1382,
-            "mining": 167,
+            "mining": 171,
             "combat": 470,
             "foraging": 73,
             "fishing": 683,
             "alchemy": 6,
             "enchanting": 415,
-            "taming": 375,
+            "taming": 376,
             "zombie": 416,
             "spider": 0,
             "wolf": 0,
@@ -768,6 +948,23 @@
             "minions": 1887
         }
     },
+    "aidezl": {
+        "score": 4093.0,
+        "breakdown": {
+            "farming": 1259,
+            "mining": 62,
+            "combat": 535,
+            "foraging": 149,
+            "fishing": 542,
+            "alchemy": 5,
+            "enchanting": 692,
+            "taming": 320,
+            "zombie": 232,
+            "spider": 0,
+            "wolf": 98,
+            "minions": 199
+        }
+    },
     "deadpork19": {
         "score": 4079.0,
         "breakdown": {
@@ -783,23 +980,6 @@
             "spider": 5,
             "wolf": 1,
             "minions": 2627
-        }
-    },
-    "aidezl": {
-        "score": 4067.0,
-        "breakdown": {
-            "farming": 1259,
-            "mining": 62,
-            "combat": 533,
-            "foraging": 146,
-            "fishing": 542,
-            "alchemy": 5,
-            "enchanting": 673,
-            "taming": 318,
-            "zombie": 232,
-            "spider": 0,
-            "wolf": 98,
-            "minions": 199
         }
     },
     "kawaiik4nna": {
@@ -871,16 +1051,16 @@
         }
     },
     "fatheraqua": {
-        "score": 3691.0,
+        "score": 3776.0,
         "breakdown": {
-            "farming": 1845,
+            "farming": 1901,
             "mining": 63,
-            "combat": 364,
+            "combat": 366,
             "foraging": 41,
             "fishing": 122,
             "alchemy": 7,
-            "enchanting": 449,
-            "taming": 426,
+            "enchanting": 459,
+            "taming": 443,
             "zombie": 223,
             "spider": 40,
             "wolf": 110,
@@ -997,6 +1177,23 @@
             "minions": 345
         }
     },
+    "thea0032": {
+        "score": 3338.0,
+        "breakdown": {
+            "farming": 594,
+            "mining": 104,
+            "combat": 62,
+            "foraging": 79,
+            "fishing": 112,
+            "alchemy": 31,
+            "enchanting": 419,
+            "taming": 59,
+            "zombie": 25,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1853
+        }
+    },
     "nitroonsteroids": {
         "score": 3312.0,
         "breakdown": {
@@ -1029,23 +1226,6 @@
             "spider": 0,
             "wolf": 0,
             "minions": 935
-        }
-    },
-    "thea0032": {
-        "score": 3300.0,
-        "breakdown": {
-            "farming": 594,
-            "mining": 103,
-            "combat": 60,
-            "foraging": 79,
-            "fishing": 112,
-            "alchemy": 31,
-            "enchanting": 419,
-            "taming": 58,
-            "zombie": 25,
-            "spider": 0,
-            "wolf": 0,
-            "minions": 1819
         }
     },
     "smoofplayz": {
@@ -1167,6 +1347,23 @@
             "minions": 56
         }
     },
+    "meshes": {
+        "score": 3062.0,
+        "breakdown": {
+            "farming": 63,
+            "mining": 72,
+            "combat": 98,
+            "foraging": 153,
+            "fishing": 1649,
+            "alchemy": 0,
+            "enchanting": 186,
+            "taming": 214,
+            "zombie": 39,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 588
+        }
+    },
     "kingmonkeyman": {
         "score": 2914.0,
         "breakdown": {
@@ -1218,6 +1415,23 @@
             "minions": 143
         }
     },
+    "krill_1": {
+        "score": 2579.0,
+        "breakdown": {
+            "farming": 769,
+            "mining": 276,
+            "combat": 635,
+            "foraging": 107,
+            "fishing": 160,
+            "alchemy": 39,
+            "enchanting": 242,
+            "taming": 207,
+            "zombie": 43,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 101
+        }
+    },
     "osugamergirlowo": {
         "score": 2572.0,
         "breakdown": {
@@ -1233,23 +1447,6 @@
             "spider": 0,
             "wolf": 0,
             "minions": 188
-        }
-    },
-    "krill_1": {
-        "score": 2529.0,
-        "breakdown": {
-            "farming": 736,
-            "mining": 274,
-            "combat": 635,
-            "foraging": 106,
-            "fishing": 160,
-            "alchemy": 39,
-            "enchanting": 242,
-            "taming": 198,
-            "zombie": 43,
-            "spider": 0,
-            "wolf": 0,
-            "minions": 96
         }
     },
     "azusa_leica": {
@@ -1283,6 +1480,23 @@
             "wolf": 0
         }
     },
+    "kevinthescourage": {
+        "score": 2442.0,
+        "breakdown": {
+            "farming": 13,
+            "mining": 153,
+            "combat": 281,
+            "foraging": 54,
+            "fishing": 277,
+            "alchemy": 0,
+            "enchanting": 415,
+            "taming": 86,
+            "zombie": 55,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1108
+        }
+    },
     "unstabl": {
         "score": 2441.0,
         "breakdown": {
@@ -1298,6 +1512,23 @@
             "spider": 11,
             "wolf": 2,
             "minions": 1002
+        }
+    },
+    "ekashmer": {
+        "score": 2353.0,
+        "breakdown": {
+            "farming": 243,
+            "mining": 348,
+            "combat": 49,
+            "foraging": 25,
+            "fishing": 333,
+            "alchemy": 0,
+            "enchanting": 237,
+            "taming": 124,
+            "zombie": 3,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 991
         }
     },
     "eliboyeli3": {
@@ -1351,21 +1582,38 @@
             "minions": 188
         }
     },
-    "monsong": {
-        "score": 2058.0,
+    "evan_hovey": {
+        "score": 2142.0,
         "breakdown": {
-            "farming": 354,
-            "mining": 105,
-            "combat": 53,
-            "foraging": 38,
-            "fishing": 529,
+            "farming": 226,
+            "mining": 67,
+            "combat": 26,
+            "foraging": 23,
+            "fishing": 163,
             "alchemy": 0,
-            "enchanting": 235,
-            "taming": 135,
+            "enchanting": 147,
+            "taming": 48,
+            "zombie": 1,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1441
+        }
+    },
+    "monsong": {
+        "score": 2118.0,
+        "breakdown": {
+            "farming": 378,
+            "mining": 108,
+            "combat": 54,
+            "foraging": 39,
+            "fishing": 530,
+            "alchemy": 0,
+            "enchanting": 242,
+            "taming": 142,
             "zombie": 13,
             "spider": 0,
             "wolf": 0,
-            "minions": 596
+            "minions": 612
         }
     },
     "glazedmei": {
@@ -1419,21 +1667,55 @@
             "minions": 935
         }
     },
+    "mister__minister": {
+        "score": 1875.0,
+        "breakdown": {
+            "farming": 605,
+            "mining": 111,
+            "combat": 127,
+            "foraging": 16,
+            "fishing": 244,
+            "alchemy": 17,
+            "enchanting": 245,
+            "taming": 143,
+            "zombie": 54,
+            "spider": 16,
+            "wolf": 0,
+            "minions": 297
+        }
+    },
     "lamusna": {
-        "score": 1822.0,
+        "score": 1829.0,
         "breakdown": {
             "farming": 190,
-            "mining": 126,
-            "combat": 72,
+            "mining": 130,
+            "combat": 74,
             "foraging": 19,
             "fishing": 18,
             "alchemy": 16,
             "enchanting": 107,
-            "taming": 61,
+            "taming": 62,
             "zombie": 2,
             "spider": 2,
             "wolf": 0,
             "minions": 1209
+        }
+    },
+    "botres": {
+        "score": 1815.0,
+        "breakdown": {
+            "farming": 960,
+            "mining": 73,
+            "combat": 120,
+            "foraging": 13,
+            "fishing": 20,
+            "alchemy": 0,
+            "enchanting": 86,
+            "taming": 185,
+            "zombie": 2,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 356
         }
     },
     "meanmanslayer": {
@@ -1465,6 +1747,23 @@
             "zombie": 0,
             "spider": 0,
             "wolf": 0
+        }
+    },
+    "danger229": {
+        "score": 1731.0,
+        "breakdown": {
+            "farming": 22,
+            "mining": 73,
+            "combat": 74,
+            "foraging": 19,
+            "fishing": 419,
+            "alchemy": 0,
+            "enchanting": 70,
+            "taming": 52,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1002
         }
     },
     "larez_17": {
@@ -1499,6 +1798,23 @@
             "spider": 0,
             "wolf": 0,
             "minions": 272
+        }
+    },
+    "spnkyou": {
+        "score": 1606.0,
+        "breakdown": {
+            "farming": 374,
+            "mining": 75,
+            "combat": 42,
+            "foraging": 28,
+            "fishing": 320,
+            "alchemy": 0,
+            "enchanting": 74,
+            "taming": 91,
+            "zombie": 14,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 588
         }
     },
     "yurino": {
@@ -1549,18 +1865,21 @@
             "minions": 240
         }
     },
-    "ekashmer": {
-        "score": 1473.0,
+    "nxji__": {
+        "score": 1516.0,
         "breakdown": {
-            "farming": 257,
-            "mining": 770,
-            "combat": 53,
-            "foraging": 19,
-            "fishing": 372,
-            "alchemy": 0,
-            "zombie": 3,
-            "spider": 0,
-            "wolf": 0
+            "farming": 566,
+            "mining": 83,
+            "combat": 133,
+            "foraging": 17,
+            "fishing": 92,
+            "alchemy": 9,
+            "enchanting": 357,
+            "taming": 139,
+            "zombie": 79,
+            "spider": 18,
+            "wolf": 0,
+            "minions": 23
         }
     },
     "102cps": {
@@ -1578,6 +1897,40 @@
             "spider": 0,
             "wolf": 0,
             "minions": 350
+        }
+    },
+    "itigerss": {
+        "score": 1399.0,
+        "breakdown": {
+            "farming": 318,
+            "mining": 115,
+            "combat": 52,
+            "foraging": 79,
+            "fishing": 346,
+            "alchemy": 0,
+            "enchanting": 163,
+            "taming": 212,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 114
+        }
+    },
+    "cuzimtimer": {
+        "score": 1395.0,
+        "breakdown": {
+            "farming": 82,
+            "mining": 154,
+            "combat": 5,
+            "foraging": 20,
+            "fishing": 570,
+            "alchemy": 68,
+            "enchanting": 355,
+            "taming": 125,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 16
         }
     },
     "me_e7": {
@@ -1631,6 +1984,40 @@
             "minions": 109
         }
     },
+    "soul_21": {
+        "score": 1324.0,
+        "breakdown": {
+            "farming": 183,
+            "mining": 72,
+            "combat": 185,
+            "foraging": 37,
+            "fishing": 148,
+            "alchemy": 1,
+            "enchanting": 291,
+            "taming": 66,
+            "zombie": 101,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 240
+        }
+    },
+    "till_trm": {
+        "score": 1297.0,
+        "breakdown": {
+            "farming": 655,
+            "mining": 114,
+            "combat": 33,
+            "foraging": 75,
+            "fishing": 52,
+            "alchemy": 19,
+            "enchanting": 222,
+            "taming": 127,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 0
+        }
+    },
     "piglin_chicken": {
         "score": 1267.0,
         "breakdown": {
@@ -1643,6 +2030,23 @@
             "zombie": 5,
             "spider": 0,
             "wolf": 0
+        }
+    },
+    "drsurm": {
+        "score": 1251.0,
+        "breakdown": {
+            "farming": 324,
+            "mining": 113,
+            "combat": 47,
+            "foraging": 33,
+            "fishing": 222,
+            "alchemy": 0,
+            "enchanting": 304,
+            "taming": 111,
+            "zombie": 1,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 96
         }
     },
     "chaderon": {
@@ -1693,38 +2097,38 @@
             "wolf": 0
         }
     },
-    "drsurm": {
+    "scorchchamp": {
         "score": 1174.0,
         "breakdown": {
-            "farming": 278,
-            "mining": 110,
-            "combat": 46,
-            "foraging": 33,
-            "fishing": 221,
-            "alchemy": 0,
-            "enchanting": 291,
-            "taming": 98,
-            "zombie": 1,
-            "spider": 0,
-            "wolf": 0,
-            "minions": 96
-        }
-    },
-    "scorchchamp": {
-        "score": 1159.0,
-        "breakdown": {
             "farming": 49,
-            "mining": 173,
+            "mining": 175,
             "combat": 53,
             "foraging": 98,
-            "fishing": 29,
+            "fishing": 30,
             "alchemy": 14,
             "enchanting": 35,
             "taming": 35,
             "zombie": 0,
             "spider": 2,
             "wolf": 0,
-            "minions": 671
+            "minions": 683
+        }
+    },
+    "cwapper": {
+        "score": 1158.0,
+        "breakdown": {
+            "farming": 0,
+            "mining": 0,
+            "combat": 0,
+            "foraging": 0,
+            "fishing": 0,
+            "alchemy": 0,
+            "enchanting": 0,
+            "taming": 0,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1158
         }
     },
     "minovino": {
@@ -1759,6 +2163,40 @@
             "spider": 17,
             "wolf": 0,
             "minions": 4
+        }
+    },
+    "loidarc": {
+        "score": 1008.0,
+        "breakdown": {
+            "farming": 55,
+            "mining": 46,
+            "combat": 40,
+            "foraging": 16,
+            "fishing": 51,
+            "alchemy": 0,
+            "enchanting": 91,
+            "taming": 25,
+            "zombie": 4,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 680
+        }
+    },
+    "canadaday": {
+        "score": 1000.0,
+        "breakdown": {
+            "farming": 12,
+            "mining": 46,
+            "combat": 63,
+            "foraging": 24,
+            "fishing": 48,
+            "alchemy": 0,
+            "enchanting": 58,
+            "taming": 11,
+            "zombie": 2,
+            "spider": 2,
+            "wolf": 0,
+            "minions": 734
         }
     },
     "tapocollino": {
@@ -1809,6 +2247,23 @@
             "minions": 3
         }
     },
+    "whoisclink": {
+        "score": 710.0,
+        "breakdown": {
+            "farming": 151,
+            "mining": 55,
+            "combat": 26,
+            "foraging": 27,
+            "fishing": 62,
+            "alchemy": 0,
+            "enchanting": 70,
+            "taming": 35,
+            "zombie": 2,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 282
+        }
+    },
     "goldenwattle": {
         "score": 641.0,
         "breakdown": {
@@ -1840,18 +2295,55 @@
             "minions": 131
         }
     },
-    "evan_hovey": {
-        "score": 595.0,
+    "droid07yt": {
+        "score": 586.0,
         "breakdown": {
-            "farming": 238,
-            "mining": 147,
-            "combat": 28,
-            "foraging": 17,
-            "fishing": 164,
+            "farming": 78,
+            "mining": 119,
+            "combat": 72,
+            "foraging": 14,
+            "fishing": 58,
             "alchemy": 0,
-            "zombie": 1,
+            "enchanting": 31,
+            "taming": 41,
+            "zombie": 0,
+            "spider": 30,
+            "wolf": 0,
+            "minions": 143
+        }
+    },
+    "xrenown": {
+        "score": 560.0,
+        "breakdown": {
+            "farming": 87,
+            "mining": 28,
+            "combat": 16,
+            "foraging": 36,
+            "fishing": 7,
+            "alchemy": 0,
+            "enchanting": 65,
+            "taming": 19,
+            "zombie": 0,
             "spider": 0,
-            "wolf": 0
+            "wolf": 0,
+            "minions": 302
+        }
+    },
+    "_anon__": {
+        "score": 512.0,
+        "breakdown": {
+            "farming": 3,
+            "mining": 43,
+            "combat": 24,
+            "foraging": 9,
+            "fishing": 6,
+            "alchemy": 0,
+            "enchanting": 8,
+            "taming": 3,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 416
         }
     },
     "bot_0101": {
@@ -1916,18 +2408,21 @@
             "wolf": 0
         }
     },
-    "loidarc": {
-        "score": 269.0,
+    "rishgamer": {
+        "score": 296.0,
         "breakdown": {
-            "farming": 59,
-            "mining": 95,
-            "combat": 42,
-            "foraging": 12,
-            "fishing": 57,
+            "farming": 74,
+            "mining": 26,
+            "combat": 13,
+            "foraging": 18,
+            "fishing": 115,
             "alchemy": 0,
-            "zombie": 4,
+            "enchanting": 18,
+            "taming": 20,
+            "zombie": 0,
             "spider": 0,
-            "wolf": 0
+            "wolf": 0,
+            "minions": 12
         }
     },
     "duck_fam": {
@@ -1941,20 +2436,6 @@
             "alchemy": 0,
             "zombie": 0,
             "spider": 11,
-            "wolf": 0
-        }
-    },
-    "xrenown": {
-        "score": 215.0,
-        "breakdown": {
-            "farming": 98,
-            "mining": 63,
-            "combat": 18,
-            "foraging": 27,
-            "fishing": 8,
-            "alchemy": 0,
-            "zombie": 0,
-            "spider": 0,
             "wolf": 0
         }
     },
@@ -1986,20 +2467,55 @@
             "wolf": 0
         }
     },
+    "qm_d": {
+        "score": 142.0,
+        "breakdown": {
+            "farming": 26,
+            "mining": 31,
+            "combat": 9,
+            "foraging": 8,
+            "fishing": 15,
+            "alchemy": 0,
+            "enchanting": 47,
+            "taming": 5,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 1
+        }
+    },
     "themysticsword": {
-        "score": 131.0,
+        "score": 134.0,
         "breakdown": {
             "farming": 3,
-            "mining": 40,
-            "combat": 27,
-            "foraging": 5,
-            "fishing": 20,
+            "mining": 20,
+            "combat": 26,
+            "foraging": 6,
+            "fishing": 19,
             "alchemy": 0,
-            "enchanting": 26,
-            "taming": 5,
-            "zombie": 6,
+            "enchanting": 24,
+            "taming": 4,
+            "zombie": 5,
             "spider": 0,
-            "wolf": 0
+            "wolf": 0,
+            "minions": 27
+        }
+    },
+    "chaos_filler": {
+        "score": 126.0,
+        "breakdown": {
+            "farming": 2,
+            "mining": 12,
+            "combat": 8,
+            "foraging": 22,
+            "fishing": 1,
+            "alchemy": 0,
+            "enchanting": 7,
+            "taming": 0,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 74
         }
     },
     "potatwo": {
@@ -2078,6 +2594,40 @@
             "minions": 0
         }
     },
+    "mewblaster": {
+        "score": 54.0,
+        "breakdown": {
+            "farming": 2,
+            "mining": 2,
+            "combat": 13,
+            "foraging": 6,
+            "fishing": 6,
+            "alchemy": 0,
+            "enchanting": 3,
+            "taming": 1,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 21
+        }
+    },
+    "mkza": {
+        "score": 53.0,
+        "breakdown": {
+            "farming": 1,
+            "mining": 6,
+            "combat": 8,
+            "foraging": 10,
+            "fishing": 16,
+            "alchemy": 0,
+            "enchanting": 0,
+            "taming": 0,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 12
+        }
+    },
     "bryan126": {
         "score": 39.0,
         "breakdown": {
@@ -2107,17 +2657,20 @@
         }
     },
     "consistents": {
-        "score": 19.0,
+        "score": 33.0,
         "breakdown": {
             "farming": 1,
-            "mining": 2,
+            "mining": 3,
             "combat": 6,
-            "foraging": 2,
-            "fishing": 7,
+            "foraging": 3,
+            "fishing": 8,
             "alchemy": 0,
+            "enchanting": 0,
+            "taming": 0,
             "zombie": 0,
             "spider": 0,
-            "wolf": 0
+            "wolf": 0,
+            "minions": 12
         }
     },
     "theinside": {
@@ -2172,6 +2725,31 @@
             "zombie": 0,
             "spider": 0,
             "wolf": 0
+        }
+    },
+    "aqua_z": {
+        "score": 0.0,
+        "breakdown": {}
+    },
+    "emireri1498": {
+        "score": 0.0,
+        "breakdown": {}
+    },
+    "truebluw": {
+        "score": 0.0,
+        "breakdown": {
+            "farming": 0,
+            "mining": 0,
+            "combat": 0,
+            "foraging": 0,
+            "fishing": 0,
+            "alchemy": 0,
+            "enchanting": 0,
+            "taming": 0,
+            "zombie": 0,
+            "spider": 0,
+            "wolf": 0,
+            "minions": 0
         }
     }
 }
