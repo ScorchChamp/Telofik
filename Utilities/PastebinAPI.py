@@ -6,9 +6,9 @@ import json
 load_dotenv()
 
 
-async def pasteStoreData(): return await PastebinAPI.pasteData(json.dumps(await playerStore.getFullList(), indent=4))
+def pasteStoreData(): return PastebinAPI.pasteData(json.dumps(playerStore.getFullList(), indent=4))
 
-async def pasteData(values):
+def pasteData(values):
 	login_data = {
 		'api_dev_key': dotenv_values('.env')["PASTEBIN_API_KEY"],
 		'api_user_name': dotenv_values('.env')["PASTEBIN_USERNAME"],

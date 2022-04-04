@@ -24,22 +24,22 @@ async def startApplicationMessage():
 	await message.add_reaction(CROSS_EMOJI)
 
 async def sendApplicationList():
-	await bot.get_channel(APPLICATION_CHANNEL).send(embed=await generateQueueList())
+	await bot.get_channel(APPLICATION_CHANNEL).send(embed = generateQueueList())
 
 async def deleteOldApplicationMessages():
 	channel = bot.get_channel(APPLICATION_CHANNEL)
-	async for message in channel.history(limit=2):
+	for message in channel.history(limit=2):
 		if message.author == bot.user: await message.delete()
 
 async def updateChannelForApplications():
 	channel = bot.get_channel(APPLICATION_CHANNEL)
-	async for message in channel.history(limit=2):
+	for message in channel.history(limit=2):
 		if message.author == bot.user:
 			for embed in message.embeds: 
-				if embed.title == APPLICATION_LIST_TITLE: await message.edit(embed=await generateQueueList())
+				if embed.title == APPLICATION_LIST_TITLE: await message.edit(embed = generateQueueList())
 
 
-async def generateQueueList():
+def generateQueueList():
 	try:
 		with open(WHITELIST, 'r') as file: data = json.load(file)
 	except:

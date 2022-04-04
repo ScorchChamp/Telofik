@@ -23,27 +23,26 @@ def storePlayerScore(playername: str, score, breakdown):
 	with open(STORE, 'w') as file: file.write(json.dumps(data, indent=4))
 
 
-async def refreshAllPlayersInGuild():
-	uuids = await HypixelAPI.getAllPlayersInGuild(STRANDED_SWEATS_GUILD_ID)
+def refreshAllPlayersInGuild():
+	uuids = HypixelAPI.getAllPlayersInGuild(STRANDED_SWEATS_GUILD_ID)
 	for uuid in uuids:
-		playername = await MojangAPI.getUsernameFromUUID(uuid)
+		playername = MojangAPI.getUsernameFromUUID(uuid)
 		print(playername)
 		try:
-			score, breakdown = await WeightAPI.getWeightUUID(uuid)
+			score, breakdown = WeightAPI.getWeightUUID(uuid)
 			storePlayerScore(playername, score, breakdown)
 		except:
 			storePlayerScore(playername, 0, {})
-	await sendMessageAsTelofik(f'Refreshing Done!')
 	
-async def getFullList():
+def getFullList():
 	with open(STORE, 'r') as file: 
 		data = json.load(file)
 		return data
 	
 
-async def getSenitherPlacement(playername):
+def getStrandedPlacement(playername):
 	playername = str(playername).lower()
-	score, breakdown = await WeightAPI.getWeight(playername)
+	score, breakdown = WeightAPI.getWeight(playername)
 	storePlayerScore(playername, score, breakdown)
 	index = 0
 	with open(STORE, 'r') as file: 
