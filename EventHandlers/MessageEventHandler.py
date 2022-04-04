@@ -24,6 +24,8 @@ s+ratio   \
 s+bdweight   \
 s+check"
 
+sussy_bakas = ["scorchchamp", "dante__daddy", "telofik"]
+
 @bot.event
 async def on_message(message):
 	if message.author == bot.user: await runTelofikMessage(message)
@@ -42,7 +44,7 @@ async def runTelofikMessage(message):
 		desc = "".join(embed.description.split(" ")).lower()
 		username = embed.author.name
 		if 's+sus' in desc: 
-			if random.randint(0,100) < 2: await sendMessageAsTelofik(f'{username}, youre the impostor.... sssh')
+			if random.randint(0,100) < 2 or username.lower() in sussy_bakas: await sendMessageAsTelofik(f'{username}, youre the impostor.... sssh')
 			else: await sendMessageAsTelofik(f'{username} is not sus')
 		if 's+refreshall' in desc:
 			if username != "ScorchChamp": await sendMessageAsTelofik(f'Im sorry {username}, I dont think you can do that {generateAntiSpam()}')
