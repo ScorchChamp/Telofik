@@ -6,7 +6,7 @@ import Utilities.PastebinAPI as PastebinAPI
 import Utilities.Weights.playerStore as playerStore
 import json
 
-DEBUG_MODE = False
+DEV_MODE = True
 API_BASE = 'http://192.168.1.100:8880/api'
 SWEATS_BRIDGE_CHANNEL = 932028296097583134
 DEBUG_CHANNEL = 958739798015758347

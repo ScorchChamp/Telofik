@@ -1,4 +1,22 @@
 {
+    "lascivi": {
+        "score": 39486.0,
+        "breakdown": {
+            "farming": 10557,
+            "mining": 1075,
+            "combat": 5452,
+            "foraging": 2629,
+            "fishing": 620,
+            "alchemy": 1191,
+            "enchanting": 1480,
+            "taming": 2347,
+            "zombie": 1874,
+            "spider": 1936,
+            "wolf": 3560,
+            "enderman": 7,
+            "minions": 6758
+        }
+    },
     "fel1xxxxx": {
         "score": 29648.0,
         "breakdown": {
@@ -218,23 +236,6 @@
             "spider": 0,
             "wolf": 0,
             "minions": 1351
-        }
-    },
-    "lascivi": {
-        "score": 14650.0,
-        "breakdown": {
-            "farming": 0,
-            "mining": 0,
-            "combat": 0,
-            "foraging": 0,
-            "fishing": 0,
-            "alchemy": 0,
-            "enchanting": 0,
-            "taming": 0,
-            "zombie": 1943,
-            "spider": 2008,
-            "wolf": 3691,
-            "minions": 7008
         }
     },
     "btd": {
@@ -1840,6 +1841,23 @@
             "minions": 297
         }
     },
+    "scorchchamp": {
+        "score": 1865.0,
+        "breakdown": {
+            "farming": 734,
+            "mining": 178,
+            "combat": 54,
+            "foraging": 98,
+            "fishing": 31,
+            "alchemy": 14,
+            "enchanting": 35,
+            "taming": 36,
+            "zombie": 0,
+            "spider": 2,
+            "wolf": 0,
+            "minions": 683
+        }
+    },
     "lamusna": {
         "score": 1829.0,
         "breakdown": {
@@ -2308,23 +2326,6 @@
             "spider": 0,
             "wolf": 1,
             "minions": 0
-        }
-    },
-    "scorchchamp": {
-        "score": 1174.0,
-        "breakdown": {
-            "farming": 49,
-            "mining": 175,
-            "combat": 53,
-            "foraging": 98,
-            "fishing": 30,
-            "alchemy": 14,
-            "enchanting": 35,
-            "taming": 35,
-            "zombie": 0,
-            "spider": 2,
-            "wolf": 0,
-            "minions": 683
         }
     },
     "cwapper": {
