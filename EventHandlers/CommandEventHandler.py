@@ -1,5 +1,6 @@
 from Commands import badCommand
 import Utilities.WeightAPI as WeightAPI
+import Utilities.PastebinAPI as pastebinAPI
 from scorch_api.bot import *
 from Utilities.BridgeAPI import *
 from Utilities.WeightAPI import *
@@ -31,7 +32,7 @@ async def top(ctx): await ctx.reply(embed=topCommand.discordMessage(ctx.author.d
 async def topall(ctx):
 	username = ctx.author.display_name
 	data = await playerStore.getFullList()
-	url = await pasteData(json.dumps(data, indent=4))
+	url = await pastebinAPI.pasteData(json.dumps(data, indent=4))
 	await ctx.reply(embed=BMC.newMessage(title=f'Dear {username}, full list: {url}'))
 
 

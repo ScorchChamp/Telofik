@@ -23,17 +23,19 @@ async def runTests():
 	all = 0
 	succeeded = 0
 	commands = {
+		"refreshAll": refreshAllCommand,
 		"anarchy": anarchyCommand,
 		"bad": badCommand,
 		"bdWeight": bdWeightCommand,
+		"check": checkCommand,
 		"health": healthCommand,
+		"maxStats": maxStatsCommand,
 		"me": meCommand,
-		"top": topCommand,
-		"weight": weightCommand,
 		"parkour": parkourCommand,
-		"refreshAll": refreshAllCommand,
 		"sus": susCommand,
-		"topAll": topAllCommand
+		"top": topCommand,
+		"topAll": topAllCommand,
+		"weight": weightCommand
 	}
 
 	embed = discord.Embed(title=f"RUNNING TESTS", color=discord.Color.blue())

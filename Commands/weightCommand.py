@@ -2,8 +2,6 @@ from scorch_api.bot import *
 import Utilities.WeightAPI as WeightAPI
 import Utilities.Weights.playerStore as playerStore
 
-BASE_PATH = getBasePath(__file__)
-
 def runCommand(username):
 	score, breakdown = WeightAPI.getWeight(username)
 	playerStore.storePlayerScore(username, score, breakdown)

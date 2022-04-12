@@ -1,1 +1,1 @@
-__all__ = ["meCommand", "badCommand", "healthCommand", "anarchyCommand", "weightCommand", "bdWeightCommand", "topCommand", "bdWeightCommand", "parkourCommand", "refreshAllCommand", "susCommand", "topAllCommand"]
+__all__ = ["meCommand", "badCommand", "checkCommand", "healthCommand", "anarchyCommand", "weightCommand", "bdWeightCommand", "topCommand", "maxStatsCommand", "bdWeightCommand", "parkourCommand", "refreshAllCommand", "susCommand", "topAllCommand"]

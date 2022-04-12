@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Farming",
+        "maxXP": 111672425,
+        "coin_cost": 0,
+        "effort": 1,
+        "XPh": 450000,
+        "curve": 0.5
+    },
+    {
+        "name": "Mining",
+        "maxXP": 111672425,
+        "coin_cost": 0,
+        "effort": 0.5,
+        "XPh": 200000,
+        "curve": 1
+    },
+    {
+        "name": "Combat",
+        "maxXP": 111672425,
+        "coin_cost": 210,
+        "effort": 2,
+        "XPh": 800000,
+        "curve": 1
+    },
+    {
+        "name": "Foraging",
+        "maxXP": 55172425,
+        "coin_cost": 0,
+        "effort": 3,
+        "XPh": 450000,
+        "curve": 1
+    },
+    {
+        "name": "Fishing",
+        "maxXP": 55172425,
+        "coin_cost": 0,
+        "effort": 1.5,
+        "XPh": 300000,
+        "curve": 1
+    },
+    {
+        "name": "Alchemy",
+        "maxXP": 55172425,
+        "coin_cost": 25,
+        "effort": 1,
+        "XPh": 18390808,
+        "curve": 1
+    },
+    {
+        "name": "Enchanting",
+        "maxXP": 111672425,
+        "coin_cost": 5,
+        "effort": 0.2,
+        "XPh": 750000,
+        "curve": 1
+    },
+    {
+        "name": "Taming",
+        "maxXP": 55172425,
+        "coin_cost": 0,
+        "effort": 0.5,
+        "XPh": 500000,
+        "curve": 1
+    },
+    {
+        "name": "Zombie",
+        "maxXP": 1000000,
+        "coin_cost": 23,
+        "effort": 2,
+        "XPh": 95000,
+        "curve": 1
+    },
+    {
+        "name": "spider",
+        "maxXP": 1000000,
+        "coin_cost": 21,
+        "effort": 1.75,
+        "XPh": 71400,
+        "curve": 1
+    },
+    {
+        "name": "wolf",
+        "maxXP": 1000000,
+        "coin_cost": 33,
+        "effort": 2.25,
+        "XPh": 44400,
+        "curve": 1
+    },
+    {
+        "name": "enderman",
+        "maxXP": 1000000,
+        "coin_cost": 33,
+        "effort": 2.25,
+        "XPh": 44400,
+        "curve": 1
+    },
+    {
+        "name": "minions",
+        "maxXP": 631,
+        "coin_cost": 0,
+        "effort": 2,
+        "XPh": 4,
+        "curve": 3
+    }
+]

@@ -1,6 +1,7 @@
 import Utilities.HypixelAPI as HypixelAPI
 import Utilities.MojangAPI as MojangAPI
 import Utilities.Weights.playerStore as playerStore
+from Constants import *
 from dotenv import load_dotenv, dotenv_values
 import json
 import os
@@ -39,7 +40,7 @@ def getWeight(username):
 def maxStats(): return getStrandedWeight({}, max=True)
 
 def generateWeightParts():
-	with open(BASE_DIR + "/weight_parts.json", "r") as f: weight_parts = json.load(f)
+	with open(WEIGHT_PARTS, "r") as f: weight_parts = json.load(f)
 	for part in weight_parts: 
 		part["time"] = part["maxXP"] / part["XPh"]
 		part["real_time"] = (part["time"] * part["effort"]) + part["coin_cost"]

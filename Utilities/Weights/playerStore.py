@@ -10,9 +10,6 @@ from dotenv import load_dotenv, dotenv_values
 load_dotenv()
 STRANDED_SWEATS_GUILD_ID = dotenv_values('.env')["STRANDED_SWEATS_GUILD_ID"]
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
-STORE = BASE_PATH + "/player_data.json"
-
 def storePlayerScore(playername: str, score, breakdown):
 	playername = playername.lower()
 	with open(STORE, 'r') as file: data = json.load(file)
@@ -23,6 +20,7 @@ def storePlayerScore(playername: str, score, breakdown):
 	with open(STORE, 'w') as file: file.write(json.dumps(data, indent=4))
 
 
+@to_thread
 def refreshAllPlayersInGuild():
 	uuids = HypixelAPI.getAllPlayersInGuild(STRANDED_SWEATS_GUILD_ID)
 	for uuid in uuids:
