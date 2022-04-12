@@ -28,7 +28,7 @@ async def sendApplicationList():
 
 async def deleteOldApplicationMessages():
 	channel = bot.get_channel(APPLICATION_CHANNEL)
-	async for message in channel.history(limit=2):
+	async for message in channel.history(limit=10):
 		if message.author == bot.user: await message.delete()
 
 async def updateChannelForApplications():

@@ -15,6 +15,7 @@ async def on_reaction_add(reaction, user):
 	data=[] 
 	if user.bot: return
 	if reaction.message.channel.id == APPLICATION_CHANNEL:
+		print(user + " applied!")
 		with open(WHITELIST, 'r') as file: data = json.load(file)
 		if reaction.emoji == "✅":
 			if user.display_name not in data: 
