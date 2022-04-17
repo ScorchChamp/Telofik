@@ -1,12 +1,12 @@
-import discord
-from scorch_api.BotMessageCreator import BotMessageCreator
 from scorch_api.bot import *
 from Utilities.BridgeAPI import *
 from Utilities.WeightAPI import *
 from Utilities.Weights import playerStore
+from Commands import *
 from Utilities.PastebinAPI import *
 import threading
 import asyncio
+import random
 
 help_message = "\
 s+weight	\
@@ -24,16 +24,11 @@ s+ratio   \
 s+bdweight   \
 s+check"
 
-sussy_bakas = ["scorchchamp", "dante__daddy", "telofik"]
 
 @bot.event
 async def on_message(message):
 	if message.author == bot.user: await runTelofikMessage(message)
 	if message.author.bot: return # Don't do anything if the author is a bot
-
-	if message.content == 'test':
-		msg = BMC.newMessage(title="", description="Test worked!")
-		await message.reply(embed=msg)
 	await bot.process_commands(message)
 
 
@@ -43,22 +38,15 @@ async def runTelofikMessage(message):
 		if not embed.description: continue
 		desc = "".join(embed.description.split(" ")).lower()
 		username = embed.author.name
-		if 's+sus' in desc: 
-			if random.randint(0,100) < 2 or username.lower() in sussy_bakas: await sendMessageAsTelofik(f'{username}, youre the impostor.... sssh')
-			else: await sendMessageAsTelofik(f'{username} is not sus')
-		if 's+refreshall' in desc:
-			if username != "ScorchChamp": await sendMessageAsTelofik(f'Im sorry {username}, I dont think you can do that {generateAntiSpam()}')
-			else: 
-				await sendMessageAsTelofik(f'Refreshing guild values! This might take a while...')
-				_thread = threading.Thread(target=asyncio.run, args=(playerStore.refreshAllPlayersInGuild(),))
-				_thread.start()
-
-		if 's+parkour' in desc: await sendMessageAsTelofik(f'{username} REMINDER TO DO YOUR PARKOUR!')
-		if 's+bdweight' in desc: await sendMessageAsTelofik(f'{username}, your score breakdown: {(await getWeight(username))[1]}')
-		if 's+topall' in desc: await sendMessageAsTelofik(f'Dear {username}, full list: {await PastebinAPI.pasteStoreData()}')
-		if 's+weight' in desc: await sendMessageAsTelofik(f'{username}, Your STRANDED weight: {(await getWeight(username))[0]}. Holy crap ur bad')
-		if 's+me' in desc: await sendMessageAsTelofik(getPlayerMeMessage(username))
-		if 's+health' in desc: await sendMessageAsTelofik(f'Dear {username}, {getHealthMessage()}')
+		if 's+sus' in desc: await sendMessageAsTelofik(susCommand.minecraftMessage(username))
+		if 's+refreshall' in desc: await sendMessageAsTelofik(refreshAllCommand.minecraftMessage(username))
+		if 's+parkour' in desc: await sendMessageAsTelofik(parkourCommand.minecraftMessage(username))
+		
+		if 's+bdweight' in desc: await sendMessageAsTelofik(bdWeightCommand.minecraftMessage(username))
+		if 's+topall' in desc: await sendMessageAsTelofik(topAllCommand.minecraftMessage(username))
+		if 's+weight' in desc: await sendMessageAsTelofik(f'{username}, Your STRANDED weight: {(	etWeight(username))[0]}. Holy crap ur bad')
+		if 's+me' in desc: await sendMessageAsTelofik(meCommand.discordMessage(username))
+		if 's+health' in desc: await sendMessageAsTelofik(healthCommand.minecraftMessage(username))
 		if 's+bad' in desc: await whisperAsTelofik(f'No u {username}', username)
 		if 's+anarchy' in desc: await sendMessageAsTelofik(f'ScorchChamp is doing this for free, so might as well plug his anarchy superflat world: anarchy.scorchchamp.com (1.18.2). First to get the dragon gets discord nitro :)')
 		if 's+help' in desc: await sendMessageAsTelofik(help_message)
@@ -70,7 +58,7 @@ async def runTelofikMessage(message):
 			await sendMessageAsTelofik(f'{username}, Your guild placement: {placement} with a score of {score["score"]}!')
 		if 's+check' in desc:
 			name = desc.split("s+check")[1]
-			try: await sendMessageAsTelofik(f"{username}, {name}'s weight: {await getWeight(name)}")
+			try: await sendMessageAsTelofik(f"{username}, {name}'s weight: {	etWeight(name)}")
 			except: await sendMessageAsTelofik(f"{username}, Something went wrong!")
 		if 's+maxstats' in desc: 
 			score, breakdown = await maxStats()

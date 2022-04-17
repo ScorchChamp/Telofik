@@ -1,39 +1,31 @@
+from Commands import badCommand
 import Utilities.WeightAPI as WeightAPI
 from scorch_api.bot import *
 from Utilities.BridgeAPI import *
 from Utilities.WeightAPI import *
 from Utilities.Weights.playerStore import *
-from Utilities.PastebinAPI import *
+from Commands import *
 
 @bot.command()
-async def weight(ctx):
-	score,breakdown = await WeightAPI.getWeight(ctx.author.display_name)
-	await ctx.reply(embed=BMC.newMessage(title=f'Your STRANDED weight: {score}'))
-	playerStore.storePlayerScore(ctx.author.display_name, score, breakdown)
+async def weight(ctx): await ctx.reply(embed=weightCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
-async def health(ctx):
-	await ctx.reply(embed=BMC.newMessage(title='Healthy!'))
+async def health(ctx): await ctx.reply(embed=healthCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
-async def bad(ctx):
-	await ctx.reply(embed=BMC.newMessage(title=f'No U'))
-
+async def bad(ctx): await ctx.reply(embed=badCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
-async def anarchy(ctx):
-	await ctx.reply(embed=BMC.newMessage(title=f'ScorchChamp is doing this for free, so might as well plug his anarchy superflat world: anarchy.scorchchamp.com (1.18.2). First to get the dragon gets discord nitro :)'))
+async def me(ctx): await ctx.reply(embed=meCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
-async def bdweight(ctx):
-	username = ctx.author.display_name
-	await ctx.reply(embed=BMC.newMessage(title=f'{username}, your score breakdown:', description=await getBreakdownFormatted(username)))
+async def anarchy(ctx): await ctx.reply(embed=anarchyCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
-async def top(ctx):
-	username = ctx.author.display_name
-	placement, score = await playerStore.getSenitherPlacement(username)
-	await ctx.reply(embed=BMC.newMessage(title=f'{username}, Your guild placement: {placement} with a score of {score["score"]}!'))
+async def bdweight(ctx): await ctx.reply(embed=bdWeightCommand.discordMessage(ctx.author.display_name))
+
+@bot.command()
+async def top(ctx): await ctx.reply(embed=topCommand.discordMessage(ctx.author.display_name))
 
 @bot.command()
 async def topall(ctx):

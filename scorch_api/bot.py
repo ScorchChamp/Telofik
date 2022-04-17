@@ -1,10 +1,6 @@
 from discord.ext import commands
 from scorch_api.BotMessageCreator import BotMessageCreator
 import os
-import Utilities.WeightAPI as WeightAPI
-import Utilities.PastebinAPI as PastebinAPI
-import Utilities.Weights.playerStore as playerStore
-import json
 
 DEV_MODE = True
 API_BASE = 'http://192.168.1.100:8880/api'

@@ -2,45 +2,41 @@ import Utilities.HypixelAPI as HypixelAPI
 import Utilities.MojangAPI as MojangAPI
 import Utilities.Weights.playerStore as playerStore
 from dotenv import load_dotenv, dotenv_values
-import time
 import json
 import os
+
 load_dotenv()
 API_KEY = dotenv_values('.env')["API_KEY"]
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-async def getBreakdownFormatted(username):
-	breakdown = (await getWeight(username))[1]
+def getBreakdownFormatted(username):
+	breakdown = getWeight(username)[1]
 	return '\n'.join([f"{item}: {breakdown[item]}" for item in breakdown])
 
-async def getBreakdownMAXFormatted():
-	score, breakdown = await maxStats()
+def getBreakdownMAXFormatted():
+	score, breakdown = maxStats()
 	return '\n'.join([f"{item}: {breakdown[item]}" for item in breakdown])
 
 
 
-async def getWeightUUID(uuid):
+def getWeightUUID(uuid):
 	if not uuid: return (0,{})
-	try: stranded_data = await HypixelAPI.getStrandedData(uuid)
+	try: stranded_data = HypixelAPI.getStrandedData(uuid)
 	except: return (0, {})
 	try:
 		weights = [getStrandedWeight(member_data["members"][uuid]) for member_data in stranded_data]
 		if not len(weights): return (0,{})
 		return max(weights)
-	except Exception as e:
-		print(e)
-		print("Something went wrong while retrieving the max weight!")
-		return (0,{})
+	except Exception as e: return (0,{})
 
-async def getWeight(username):
-	uuid = await MojangAPI.getUUIDFromUsername(username)
+def getWeight(username):
+	uuid = MojangAPI.getUUIDFromUsername(username)
 	if not uuid: return (0,{})
-	weight, breakdown = await getWeightUUID(uuid)
+	weight, breakdown = getWeightUUID(uuid)
 	playerStore.storePlayerScore(username, weight, breakdown)
 	return weight, breakdown
 
-async def maxStats():
-	return getStrandedWeight({}, max=True)
+def maxStats(): return getStrandedWeight({}, max=True)
 
 def generateWeightParts():
 	with open(BASE_DIR + "/weight_parts.json", "r") as f: weight_parts = json.load(f)
