@@ -1,7 +1,5 @@
 from scorch_api.bot import *
-
-NO_PERSONALIZED_MESSAGE = "LMAO %s, apparently you are not popular enough for a personalized message xd"
-MESSAGE_JSON = getBasePath(__file__) + "/messages.json"
+import json
 
 def getMessageData(): 
     with open(MESSAGE_JSON, 'r') as file: return json.load(file)
