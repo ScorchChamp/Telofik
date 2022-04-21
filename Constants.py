@@ -4,6 +4,7 @@ import functools
 import typing
 import asyncio
 
+DEV_MODE = True
 
 def to_thread(func: typing.Callable) -> typing.Coroutine:
     @functools.wraps(func)
@@ -12,6 +13,7 @@ def to_thread(func: typing.Callable) -> typing.Coroutine:
     return wrapper
 
 APPLICATION_CHANNEL = 927969522051334185
+if DEV_MODE: APPLICATION_CHANNEL = 958739798015758347
 APPLICATION_TITLE = "Stranded Sweats Application Form"
 APPLICATION_DESC = "Press the button below to submit an application! \
 	\n\n **The minimum Stranded weight requirement is: {}.** \
@@ -21,7 +23,6 @@ MINIMUM_WEIGHT = 2500
 CHECK_EMOJI = "✅"
 CROSS_EMOJI = "❌"
 
-DEV_MODE = True
 API_BASE = 'http://192.168.1.100:8880/api'
 SWEATS_BRIDGE_CHANNEL = 932028296097583134
 DEBUG_CHANNEL = 958739798015758347

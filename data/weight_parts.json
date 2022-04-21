@@ -5,7 +5,7 @@
         "coin_cost": 0,
         "effort": 1,
         "XPh": 450000,
-        "curve": 0.5
+        "curve": 1
     },
     {
         "name": "Mining",
