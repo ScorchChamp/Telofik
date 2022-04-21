@@ -2,7 +2,7 @@ from discord.ext import commands
 from scorch_api.BotMessageCreator import BotMessageCreator
 import os
 
-DEV_MODE = True
+DEV_MODE = False
 API_BASE = 'http://192.168.1.100:8880/api'
 SWEATS_BRIDGE_CHANNEL = 932028296097583134
 DEBUG_CHANNEL = 958739798015758347
